@@ -1,4 +1,6 @@
 import React from 'react';
+import LogoRed from '../img/logoRed.png'
+import Button from "./Button";
 
 const Section1 = () => {
     return (
@@ -15,13 +17,16 @@ const Section1 = () => {
                         <p className="u-text u-text-body-alt-color u-text-3">
                             My first project where i remade HTML website to React.
                         </p>
+                        <Button>
+                            wiew on github
+                        </Button>
                         <a href="https://nicepage.com/k/youtube-website-templates"
                            className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">
                             wiew on github
                         </a>
                     </div>
                 </div>
-                <img src="images/799e71d993a42276772cc9d65de5c6bc.png" alt=""
+                <img src={LogoRed} alt="logoRed"
                      className="u-image u-image-default u-image-1"/>
                     <div
                         className="u-align-right u-container-style u-expanded-width-md u-expanded-width-xs
@@ -42,6 +47,9 @@ const Section1 = () => {
                                 Beats Solo3 Wireless is your perfect everyday headphone.
                                 With Fast Fuel, a 5-minute charge gives you 3 hours of playback.
                             </p>
+                            <Button>
+                                $299.95 Buy
+                            </Button>
                             <a href="https://nicepage.com/k/youtube-website-templates"
                                className="u-btn u-btn-round u-button-style u-radius-24 u-btn-2">
                                 $299.95 Buy
