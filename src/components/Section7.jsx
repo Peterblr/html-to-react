@@ -9,15 +9,20 @@ const Section7 = () => {
                         <div className="u-layout-row">
                             <div className="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-1">
                                 <div className="u-container-layout">
-                                    <img className="u-image u-image-1" src="images/dfcb07b46dbcdec216ecaccef00211a8.png">
+                                    <img className="u-image u-image-1"
+                                         src="images/dfcb07b46dbcdec216ecaccef00211a8.png"/>
                                 </div>
                             </div>
                             <div
-                                className="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-2">
+                                className="u-align-left u-container-style u-layout-cell u-left-cell
+                                 u-size-30 u-layout-cell-2">
                                 <div className="u-container-layout">
-                                    <h2 className="u-custom-font u-font-roboto-slab u-text u-text-1">What’s in the
-                                        Box</h2>
-                                    <h6 className="u-text u-text-custom-color-2 u-text-2">Highlights</h6>
+                                    <h2 className="u-custom-font u-font-roboto-slab u-text u-text-1">
+                                        What’s in the Box
+                                    </h2>
+                                    <h6 className="u-text u-text-custom-color-2 u-text-2">
+                                        Highlights
+                                    </h6>
                                     <ul className="u-spacing-12 u-text u-text-3">
                                         <li>Beats Solo3 Wireless headphones</li>
                                         <li>Carrying case</li>
@@ -27,7 +32,9 @@ const Section7 = () => {
                                         <li>Warranty Card</li>
                                     </ul>
                                     <a href="https://nicepage.me"
-                                       className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">$299.95 start</a>
+                                       className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">
+                                        $299.95 start
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -35,8 +42,7 @@ const Section7 = () => {
                 </div>
             </div>
         </section>
-
-);
+    );
 };
 
 export default Section7;
