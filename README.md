@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can install:
 
-###`npm add classnames`
+### `npm add classnames`
 Adding classNames [open](https://github-com.translate.goog/JedWatson/classnames?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=en-GB&_x_tr_pto=nui,op,sc)
 
 ### `npm install node-sass` or `npm install node-sass@4.14.1`
