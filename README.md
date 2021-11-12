@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm install node-sass` or ###`npm install node-sass@4.14.1`
+### `npm install node-sass` or `npm install node-sass@4.14.1`
  if you have NodeJS old version Open [open](https://www.npmjs.com/package/node-sass)
 
 Adding a Sass Stylesheet.\
