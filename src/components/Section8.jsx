@@ -27,7 +27,6 @@ const Section8 = () => {
                 </div>
             </div>
         </section>
-
     );
 };
 
