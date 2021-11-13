@@ -1,5 +1,8 @@
 import React from 'react';
 
+import LogoGrey from  "../img/logoGrey.png";
+import Button from "./Button";
+
 const Section3 = () => {
     return (
         <section className="u-clearfix u-section-3" id="sec-c58e">
@@ -9,7 +12,7 @@ const Section3 = () => {
                         <div className="u-layout-row">
                             <div className="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
                                 <div className="u-container-layout">
-                                    <img src="images/161ab6cb425b7ec43838e8487c441a17.png" alt=""
+                                    <img src={LogoGrey} alt="logoGray"
                                          className="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm
                                           u-expanded-width-xl u-image u-image-default u-opacity u-opacity-10 u-image-1"
                                          data-image-width="1000" data-image-height="500"/>
@@ -26,14 +29,16 @@ const Section3 = () => {
                                             The headphone’s fast-flowing curves and pivoting ear cups complete this
                                             natural fit, designed for optimal comfort and sound delivery.
                                         </p>
-                                        <a href="https://nicepage.cc"
-                                           className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">
-                                            read more
-                                        </a>
+                                    <Button>
+                                        read more
+                                    </Button>
+                                        {/*<a href="https://nicepage.cc"*/}
+                                        {/*   className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">*/}
+                                        {/*    read more*/}
+                                        {/*</a>*/}
                                 </div>
                             </div>
                             <div className="u-container-style u-image u-layout-cell u-right-cell u-size-30 u-image-2">
-                                <div className="u-container-layout"></div>
                             </div>
                         </div>
                     </div>
