@@ -1,5 +1,8 @@
 import React from 'react';
 
+import imgS2 from "../img/imageS2.png";
+import Button from "./Button";
+
 const Section2 = () => {
     return (
         <section className="u-clearfix u-custom-color-1 u-section-2" id="sec-db7e">
@@ -31,6 +34,9 @@ const Section2 = () => {
                                         your Apple Watch, iPad and Mac*
                                         <br/>
                                     </p>
+                                    <Button>
+                                        read more
+                                    </Button>
                                     <a href="https://nicepage.com/website-mockup"
                                        className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">
                                         read more
@@ -39,7 +45,7 @@ const Section2 = () => {
                             </div>
                             <div className="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
                                 <div className="u-container-layout">
-                                    <img className="u-image u-image-1" src="images/c72676467ae6def6cf1b97399a5a047e.png"/>
+                                    <img className="u-image u-image-1" src={imgS2} alt={"imgS2"}/>
                                 </div>
                             </div>
                         </div>
