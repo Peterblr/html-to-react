@@ -8270,6 +8270,12 @@ ul.u-text li:last-child {
   .u-hidden-xs {
     display: none !important;
   }
+
+  .u-container-layout {
+    color: #e5bdbd;
+    background-color: rgba(6, 6, 7, 0.57);
+    border-radius: 5px;
+  }
 }
 .u-invisible {
   visibility: hidden;

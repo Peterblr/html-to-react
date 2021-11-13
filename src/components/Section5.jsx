@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from "./Button";
 
 const Section5 = () => {
     return (
@@ -21,10 +22,13 @@ const Section5 = () => {
                             Wireless delivers up to 40 hours of battery life driven by the efficiency of the Apple W1
                             chip.&nbsp;
                         </p>
-                        <a href="https://nicepage.com/templates"
-                           className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">
+                        <Button>
                             read more
-                        </a>
+                        </Button>
+                        {/*<a href="https://nicepage.com/templates"*/}
+                        {/*   className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">*/}
+                        {/*    read more*/}
+                        {/*</a>*/}
                     </div>
                 </div>
             </div>
