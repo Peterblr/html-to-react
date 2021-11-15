@@ -1,4 +1,5 @@
 import React from 'react';
+import  imgS7 from "../img/imageS7.png";
 
 const Section7 = () => {
     return (
@@ -10,7 +11,7 @@ const Section7 = () => {
                             <div className="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-1">
                                 <div className="u-container-layout">
                                     <img className="u-image u-image-1"
-                                         src="images/dfcb07b46dbcdec216ecaccef00211a8.png"/>
+                                         src={imgS7} alt={"img"}/>
                                 </div>
                             </div>
                             <div
