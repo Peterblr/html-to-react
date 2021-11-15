@@ -15,7 +15,7 @@
 
 .content {
   position: relative;
-  max-width: 50%;
+  max-width: 60%;
   text-align: right;
 }
 
@@ -46,7 +46,7 @@
   font-size: 0.875rem;
   font-style: italic;
   font-family: 'Open Sans',sans-serif;
-  margin: 20px 20px 0.96px;
+  margin: 20px 50px;
   line-height: 1.6;
   color: #ffffff !important;
 }
@@ -64,9 +64,59 @@
   padding: 10px 30px;
 }
 
+@media (max-width: 769px) {
+  .logo_red {
+    width: 300px;
+  }
+
+  .content {
+    max-width: 70%;
+  }
+
+  .header_text {
+    font-size: 2rem;
+    line-height: 0.8;
+  }
+}
+
 @media (max-width: 575px) {
   .body-1 {
     background-position: 10.81% 50%;
+  }
+
+  .body_flex {
+    display: block;
+  }
+
+  .logo_red {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .content {
+
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 376px) {
+  .body_flex {
+    display: block;
+  }
+
+  .logo_red {
+    width: 150px;
+    margin-top: 15px;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .header_text {
+    font-size: 1.5rem;
+    line-height: 0.5;
+    margin-right: 20px;
   }
 }
 
