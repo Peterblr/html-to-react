@@ -12,11 +12,11 @@ import Section9 from "./components/Section9";
 function App() {
   return (
       <body className="u-body u-overlap u-overlap-contrast">
-      {/*<Section1/>*/}
-      {/*<Section2/>*/}
-      {/*<Section3/>*/}
-      {/*<Section4/>*/}
-      {/*<Section5/>*/}
+      <Section1/>
+      <Section2/>
+      <Section3/>
+      <Section4/>
+      <Section5/>
       <Section6/>
       <Section7/>
       <Section8/>

@@ -20,10 +20,10 @@ const Section1 = () => {
                         <Button>
                             wiew on github
                         </Button>
-                        <a href="https://nicepage.com/k/youtube-website-templates"
-                           className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">
-                            wiew on github
-                        </a>
+                        {/*<a href="https://nicepage.com/k/youtube-website-templates"*/}
+                        {/*   className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">*/}
+                        {/*    wiew on github*/}
+                        {/*</a>*/}
                     </div>
                 </div>
                 <img src={LogoRed} alt="logoRed"
@@ -50,10 +50,10 @@ const Section1 = () => {
                             <Button>
                                 $299.95 Buy
                             </Button>
-                            <a href="https://nicepage.com/k/youtube-website-templates"
-                               className="u-btn u-btn-round u-button-style u-radius-24 u-btn-2">
-                                $299.95 Buy
-                            </a>
+                            {/*<a href="https://nicepage.com/k/youtube-website-templates"*/}
+                            {/*   className="u-btn u-btn-round u-button-style u-radius-24 u-btn-2">*/}
+                            {/*    $299.95 Buy*/}
+                            {/*</a>*/}
                         </div>
                     </div>
             </div>

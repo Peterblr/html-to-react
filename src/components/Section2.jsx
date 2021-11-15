@@ -37,10 +37,10 @@ const Section2 = () => {
                                     <Button>
                                         read more
                                     </Button>
-                                    <a href="https://nicepage.com/website-mockup"
-                                       className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">
-                                        read more
-                                    </a>
+                                    {/*<a href="https://nicepage.com/website-mockup"*/}
+                                    {/*   className="u-btn u-btn-round u-button-style u-radius-24 u-btn-1">*/}
+                                    {/*    read more*/}
+                                    {/*</a>*/}
                                 </div>
                             </div>
                             <div className="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
