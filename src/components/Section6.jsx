@@ -1,4 +1,7 @@
 import React from 'react';
+import imgBlack from "../img/imageS6Black.png";
+import imgWhite from  "../img/imageS6White.png";
+import imgBlue from  "../img/imageS6Blue.png";
 
 const Section6 = () => {
     return (
@@ -22,7 +25,7 @@ const Section6 = () => {
                                 u-size-20-md u-layout-cell-1">
                                 <div className="u-container-layout u-container-layout-2">
                                     <img className="u-image u-image-1"
-                                         src="images/4c04f6649f009a5a4832a95f6e49b2fb.png"/>
+                                         src={imgBlack} alt={"black"}/>
                                         <h4 className="u-align-center u-text u-text-custom-color-2 u-text-3">
                                             Beats Solo3
                                             <br/>
@@ -36,7 +39,7 @@ const Section6 = () => {
                             <div className="u-container-style u-layout-cell u-size-20 u-size-20-md u-layout-cell-2">
                                 <div className="u-container-layout u-container-layout-3">
                                     <img className="u-image u-image-2"
-                                         src="images/f5a7875fad2aae5b1c72b7ab3340d2d4.png"/>
+                                         src={imgWhite} alt={"white"}/>
                                         <h4 className="u-align-center u-text u-text-custom-color-2 u-text-5">
                                             Beats Solo3
                                             <br/>
@@ -52,7 +55,7 @@ const Section6 = () => {
                                 u-size-20-md u-layout-cell-3">
                                 <div className="u-container-layout u-container-layout-4">
                                     <img className="u-image u-image-3"
-                                         src="images/08ee92852d5d0b32ab77f333d04b324b.png"/>
+                                         src={imgBlue} alt={"blue"}/>
                                         <h4 className="u-align-center u-text u-text-custom-color-2 u-text-7">
                                             Beats Solo3
                                             <br/>
