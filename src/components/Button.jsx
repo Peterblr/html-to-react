@@ -5,7 +5,7 @@ const Button = ({ onClick, className, outline, children }) => {
     return (
         <button
             onClick={onClick}
-            className={classNames("u-btn u-btn-round u-button-style u-radius-24 u-btn-1", className, {
+            className={classNames("button_style", className, {
                 "button--outline": outline,
             })}
         >
