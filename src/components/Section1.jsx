@@ -28,7 +28,7 @@ const Section1 = () => {
                         </div>
                         <Button>
                             <a href="https://github.com/Peterblr/html-to-react">
-                                Wiew At Github
+                                View At Github
                             </a>
                         </Button>
                     </div>

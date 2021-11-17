@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from "classnames";
+import "../scss/Button.scss"
 
 const Button = ({ onClick, className, outline, children }) => {
     return (
