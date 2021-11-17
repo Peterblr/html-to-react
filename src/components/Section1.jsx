@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Section1 = () => {
     return (
-        <section className="body-1" >
+        <section className="body_1" >
             <div className="body_flex">
                 <div >
                     <img src={LogoRed} alt="logoRed" className="logo_red" />
@@ -27,7 +27,9 @@ const Section1 = () => {
                             My first project where i remade HTML website to React.
                         </div>
                         <Button>
-                            Wiew At Github
+                            <a href="https://github.com/Peterblr/html-to-react">
+                                Wiew At Github
+                            </a>
                         </Button>
                     </div>
                     <div className="bottom">
@@ -51,7 +53,9 @@ const Section1 = () => {
                             </p>
                         </div>
                         <Button>
-                            $299.95 Buy
+                            <a href="https://www.google.com/">
+                                $299.95 Buy
+                            </a>
                         </Button>
                     </div>
                 </div>
