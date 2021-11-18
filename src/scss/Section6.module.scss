@@ -1,0 +1,12 @@
+.content_wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Open Sans',sans-serif;
+}
+
+ .img_item {
+  min-width: 350px;
+}
