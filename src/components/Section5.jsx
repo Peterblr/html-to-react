@@ -7,11 +7,8 @@ const Section5 = () => {
     return (
         <section>
             <div className={s.body_5}>
-                {/*<div>*/}
-                {/*    <img className={s.image} src={imgS5} alt={"imgS5"}/>*/}
-                {/*</div>*/}
                 <div>
-                    <div className={s.content_text_left}>
+                    <div className={s.content_text_right}>
                         <div className="header_text_left">
                             <h2>Feel Your Music</h2>
                         </div>
@@ -30,7 +27,7 @@ const Section5 = () => {
                             </p>
                         </div>
                     </div>
-                    <Button className={s.button}>
+                    <Button>
                         <a href="https://www.google.com/">
                             Read More
                         </a>
