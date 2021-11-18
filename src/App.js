@@ -18,7 +18,7 @@ function App() {
       <Section4/>
       <Section5/>
       <Section6/>
-      {/*<Section7/>*/}
+      <Section7/>
       {/*<Section8/>*/}
       {/*<Section9/>*/}
       {/*<style className="u-overlap-style">*/}

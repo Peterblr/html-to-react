@@ -1,0 +1,16 @@
+.content_wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+  font-style: italic;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.img_item {
+ height: 500px;
+}
+
+.content_right {
+  padding-top: 100px;
+}
