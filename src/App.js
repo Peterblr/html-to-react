@@ -7,30 +7,20 @@ import Section5 from "./components/Section5";
 import Section6 from "./components/Section6";
 import Section7 from "./components/Section7";
 import Section8 from "./components/Section8";
-import Section9 from "./components/Section9";
 
 function App() {
-  return (
-      <body className="body">
-      <Section1/>
-      <Section2/>
-      <Section3/>
-      <Section4/>
-      <Section5/>
-      <Section6/>
-      <Section7/>
-      {/*<Section8/>*/}
-      {/*<Section9/>*/}
-      {/*<style className="u-overlap-style">*/}
-      {/*    .u-overlap: not(.u-sticky-scroll)*/}
-      {/*    .u-header {*/}
-      {/*      background-color: #f15048 !important*/}
-      {/*       }*/}
-      {/*</style>*/}
-
-
-      </body>
-  );
+    return (
+        <body className="body">
+        <Section1/>
+        <Section2/>
+        <Section3/>
+        <Section4/>
+        <Section5/>
+        <Section6/>
+        <Section7/>
+        <Section8/>
+        </body>
+    );
 }
 
 export default App;
