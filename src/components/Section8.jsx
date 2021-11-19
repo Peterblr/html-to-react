@@ -14,7 +14,6 @@ const Section8 = () => {
                                 Tech Specs
                             </h2>
                         </div>
-
                         <h1>
                             Manufacturer Information
                         </h1>
