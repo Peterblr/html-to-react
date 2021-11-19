@@ -8,18 +8,18 @@ const Section7 = () => {
         <section>
             <div className="body_7">
                 <div className={s.content_wrap}>
-                    <div >
+                    <div>
                         <img className={s.img_item} src={imgS7} alt={"img"}/>
                     </div>
                     <div className={s.content_right}>
                         <div className={s.header_text}>
-                            <h2 >
+                            <h2>
                                 What’s in the Box
                             </h2>
                         </div>
 
                         <div className={"text_left"}>
-                            <h2 >
+                            <h2>
                                 Highlights
                             </h2>
                             <ul>

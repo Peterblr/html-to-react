@@ -9,7 +9,15 @@
   display: table;
   cursor: pointer;
   padding: 10px 30px;
+  transition: 500ms all;
+  text-shadow: 2px 2px 10px yellow;
+  //box-shadow: 5px 5px 5px red;
 }
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
 
 .button_style a {
   text-decoration: none;
