@@ -7,7 +7,7 @@
 .body_flex {
   display: flex;
   justify-content: space-between;
-}
+ }
 
 .logo_red {
   width: 400px;
@@ -33,14 +33,26 @@
   font-size: 3rem;
   margin: 20px;
   line-height: 0.5;
+
+  h2::first-letter {
+    color: #f15048;
+  }
 }
 
 .text_red {
   color: #f15048 !important;
+  h1::first-letter {
+    font-size: 5rem;
+    color: white;
+  }
 }
 
 .text_white {
   color: #ffffff !important;
+  h1::first-letter {
+    font-size: 5rem;
+    color: #f15048;
+  }
 }
 
 .font_text {

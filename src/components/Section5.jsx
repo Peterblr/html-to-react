@@ -28,7 +28,8 @@ const Section5 = () => {
                         </div>
                     </div>
                     <Button>
-                        <a href="https://www.google.com/">
+                        <a href="https://www.google.com/"
+                           target={"_blank"}>
                             Read More
                         </a>
                     </Button>

@@ -27,7 +27,8 @@ const Section1 = () => {
                             My first project where i remade HTML website to React.
                         </div>
                         <Button>
-                            <a href="https://github.com/Peterblr/html-to-react">
+                            <a href="https://github.com/Peterblr/html-to-react"
+                            target={"_blank"}>
                                 View At Github
                             </a>
                         </Button>
@@ -36,13 +37,13 @@ const Section1 = () => {
                         <div className="header_text">
                             <div className="text_red">
                                 <h1>
-                                    Beats Solo3&nbsp;
+                                    Beats Solo3
                                 </h1>
                             </div>
                             <div className="text_white">
-                                <h2>
+                                <h1>
                                     Wireless
-                                </h2>
+                                </h1>
                             </div>
                         </div>
                         <div className="font_text">
@@ -53,7 +54,8 @@ const Section1 = () => {
                             </p>
                         </div>
                         <Button>
-                            <a href="https://www.google.com/">
+                            <a href="https://www.google.com/"
+                               target={"_blank"}>
                                 $299.95 Buy
                             </a>
                         </Button>

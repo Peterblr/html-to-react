@@ -26,7 +26,8 @@ const Section3 = () => {
                         </div>
                     </div>
                     <Button className={s.button}>
-                        <a href="https://www.google.com/">
+                        <a href="https://www.google.com/"
+                           target={"_blank"}>
                             Read More
                         </a>
                     </Button>

@@ -8,13 +8,25 @@
 }
 
 .img_item {
-  width: 50%;
+  width: 40vw;
+  min-width: 400px;
+  max-width: 500px;
 }
 
-.text {
-  max-width: 23%;
+.header_text {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 20px;
+
+  h2::first-letter {
+    color: #f15048;
+  }
 }
 
-.item_right {
-  padding-top: 100px;
-}
+//.text {
+//  max-width: 23%;
+//}
+
+//.item_right {
+//  padding-top: 100px;
+//}

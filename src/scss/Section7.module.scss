@@ -1,16 +1,26 @@
 .content_wrap {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  text-align: left;
-  font-style: italic;
-  font-family: 'Open Sans',sans-serif;
+
 }
 
 .img_item {
- height: 500px;
+  height: 40vw;
+  min-width: 400px;
+  max-width: 600px;
 }
 
 .content_right {
   padding-top: 100px;
 }
+
+.header_text {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 20px;
+
+  h2::first-letter {
+    color: #f15048;
+  }
+}
+

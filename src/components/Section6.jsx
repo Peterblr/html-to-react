@@ -38,11 +38,10 @@ const Section6 = () => {
                         <p>
                             $259.95
                         </p>
-
                     </div>
                     <div>
                         <img className={s.img_item} src={imgBlue} alt={"blue"}/>
-                        <h4 c>
+                        <h4>
                             Beats Solo3
                             <br/>
                             Wireless - blue

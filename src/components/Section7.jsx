@@ -12,15 +12,16 @@ const Section7 = () => {
                         <img className={s.img_item} src={imgS7} alt={"img"}/>
                     </div>
                     <div className={s.content_right}>
-                        <h2 className="header_text">
-                            What’s in the Box
-                            <br/>
-                            <br/>
-                        </h2>
-                        <h2 >
-                            Highlights
-                        </h2>
-                        <div className={""}>
+                        <div className={s.header_text}>
+                            <h2 >
+                                What’s in the Box
+                            </h2>
+                        </div>
+
+                        <div className={"text_left"}>
+                            <h2 >
+                                Highlights
+                            </h2>
                             <ul>
                                 <li>Beats Solo3 Wireless headphones</li>
                                 <li>Carrying case</li>
@@ -31,7 +32,8 @@ const Section7 = () => {
                             </ul>
                         </div>
                         <Button>
-                            <a href="https://www.google.com/">
+                            <a href="https://www.google.com/"
+                               target={"_blank"}>
                                 $299.95 Buy
                             </a>
                         </Button>
