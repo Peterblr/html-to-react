@@ -9,7 +9,7 @@ const Section5 = () => {
             <div className={s.body_5}>
                 <div>
                     <div className={s.content_text_right}>
-                        <div className="header_text_left">
+                        <div className={s.header_text_S5}>
                             <h2>Feel Your Music</h2>
                         </div>
                         <div className={s.text}>

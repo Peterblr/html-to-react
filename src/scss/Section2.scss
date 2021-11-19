@@ -34,3 +34,33 @@ min-height: 700px;
   margin: 20px 50px;
   line-height: 1.6;
 }
+
+@media (max-width: 769px) {
+  .imageS2 {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 426px) {
+  .content_text_left {
+    max-width: 100%;
+  }
+
+  .imageS2 {
+    margin-top: 0;
+  }
+
+  .btnS2 {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 376px) {
+  .imageS2 {
+    min-width: auto;
+  }
+
+  .header_text_left {
+    font-size: 1.5rem;
+  }
+}

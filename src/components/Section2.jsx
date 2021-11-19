@@ -27,7 +27,7 @@ const Section2 = () => {
                             your Apple Watch, iPad and Mac*
                         </p>
                     </div>
-                    <Button>
+                    <Button className={"btnS2"}>
                         <a href="https://www.google.com/"
                            target={"_blank"}>
                             Read More
