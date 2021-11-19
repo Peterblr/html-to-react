@@ -17,10 +17,10 @@ function App() {
         <Section3/>
         <Section4/>
         <Section5/>
-        {/*<Section6/>*/}
-        {/*<Section7/>*/}
-        {/*<Section8/>*/}
-       {/*<Footer/>*/}
+        <Section6/>
+        <Section7/>
+        <Section8/>
+       <Footer/>
         </body>
     );
 }

@@ -24,3 +24,18 @@
   }
 }
 
+@media (max-width: 430px) {
+  .content_wrap {
+    flex-wrap: wrap;
+  }
+
+  .img_item {
+    height: 70vh;
+    max-width: 350px;
+  }
+
+  .header_text {
+    font-size: 2rem;
+  }
+}
+

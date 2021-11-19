@@ -22,3 +22,15 @@
     color: white;
   }
 }
+
+@media (max-width: 430px) {
+  .footer_text {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer_text {
+    font-size: 0.5rem;
+  }
+}

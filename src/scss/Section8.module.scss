@@ -23,10 +23,8 @@
   }
 }
 
-//.text {
-//  max-width: 23%;
-//}
-
-//.item_right {
-//  padding-top: 100px;
-//}
+@media (max-width: 430px){
+  .header_text {
+    font-size: 2rem;
+  }
+}
