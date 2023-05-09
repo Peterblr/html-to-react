@@ -1,4 +1,4 @@
-# Logitech_MX3
+# HeadPhones
 
 https://peterblr.github.io/headphones/
 
